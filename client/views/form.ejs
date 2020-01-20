@@ -8,9 +8,71 @@
 </head>
 <body>
     <form method="POST" action="/submited">
-        Name <input type="text" name="name">
-        Phone no<input type="number" name="phno">
-        Email <input type="email" name="email">
+        Student's Full Name <input type="text" name="s_name">
+        Father's name <input type="text" name="f_name">
+        Name of Programme <input type="text" name="p_name">
+        Branch/Specialization <input type="text" name="branch">
+        Year <input type="number" name="year">
+        Semester <input type="number" name="semester">
+        Category(GEN/OBC/SC/ST/PH) <input type="text" name="cat">
+        Gender M/F <select name="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+        State Domicile <input type="text" name="domicile">
+        Aadhar no <input type="number" name="aadhar">
+        Permanent Address <textarea name="p_address" rows="5" cols="50"></textarea>
+        Hostel Address <textarea name="h_address" rows="3" cols="50"></textarea>
+        Student's Contact Number<input type="number" name="s_no">
+        Email <input type="email" name="s_email">
+        Father's Contact Number<input type="number" name="f_no">
+        Email <input type="email" name="f_email">
+        Mother's Contact Number<input type="number" name="m_no">
+        Email <input type="email" name="m_email">
+        Exam Result: SGPA/CGPA <input type="number" name="result">
+        Till Semester <input type="number" name="till_semester">
+        Promoted/ Not Promoted/ RL <select name="status">
+                                        <option>Promoted</option>
+                                        <option>Not Promoted</option>
+                                        <option>RL</option>
+                                    </select>
+
+        
+        <h2>FOR REGISTRATION MEMBERS ONLY</h2>
+        
+        Odd Semester Academic Fee <input type="number" name="odd_acc_fee">
+        Remaining <input type="number" name="odd_rem_fee">
+        Fee Details <select name="fee_details">
+                        <option>Online</option>
+                        <option>DD</option>
+                        <option>Cash</option>
+                   </select>
+
+        Txn. No/ DD no/ GBU Reciept No <input type="number" name="odd_txn_no">
+        Bank <input type="text" name="odd_bank">
+        Date <input type="date" name="odd_fee_date">
+
+        <br>
+
+        Event Semester Academic Fee <input type="number" name="even_acc_fee">
+        Remaining <input type="number" name="even_rem_fee">
+        Fee Details <select name="fee_details">
+                        <option>Online</option>
+                        <option>DD</option>
+                        <option>Cash</option>
+                   </select>
+
+        Txn. No/ DD no/ GBU Reciept No <input type="number" name="even_txn_no">
+        Bank <input type="text" name="even_bank">
+        Date <input type="date" name="even_fee_date">
+
+        <br>
+
+        Hostel Fee <input type="number" name="hostel_fee">
+        Remaining <input type="number" name="hostel_rem_fee">
+        Mess Fee <input type="number" name="mess_fee">
+        Remaining <input type="number" name="mess_rem_fee">
+        
         <button>Submit</button>
     </form>
 </body>
